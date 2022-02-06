@@ -127,7 +127,7 @@
 .players.active span:first-chil{
     color: var(--magenta);
 }
-.players.active span:nth-chil(2){
+.players.active span:nth-child(2){
     color: var(--white);
 }
 .players.active .slider{
