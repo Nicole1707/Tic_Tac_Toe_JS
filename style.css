@@ -108,6 +108,7 @@
     text-align: center;
     position: relative;
     z-index: 5;
+    transition: all 0.3s ease;
 }
 .details span:first-child{
     color: var(--white);
@@ -121,6 +122,16 @@
     position: absolute;
     border-radius: 5px;
     z-index: 2;
+    transition: all 0.3s ease;
+}
+.players.active span:first-chil{
+    color: var(--magenta);
+}
+.players.active span:nth-chil(2){
+    color: var(--white);
+}
+.players.active .slider{
+    left: 50%;
 }
 .play-board .play-area{
     margin-top: 20px;
